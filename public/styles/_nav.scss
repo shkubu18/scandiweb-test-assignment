@@ -1,0 +1,38 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 10px;
+    h1 {
+        font-size: 45px;
+        font-weight: 300;
+    }
+    button {
+        padding-block: 8px;
+        padding-inline: 15px;
+        color: $white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    } 
+    
+    #add-product-btn {
+        margin-right: 20px;
+        background-color: $lightBlue;
+        padding-inline: 20px;
+        &:hover {
+            transition: all .7s ease;
+            background-color: rgb(11, 199, 190);
+        }
+    } 
+    
+    #delete-product-btn {
+        background-color: $red;
+        &:hover {
+            transition: all .7s ease;
+            background-color: rgb(180, 1, 1);
+        }
+    }
+}

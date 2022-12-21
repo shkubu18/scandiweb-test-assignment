@@ -1,0 +1,16 @@
+.warnings {
+    margin-top: 20px;
+    background-color: $errorBackground;
+    border-radius: 5px;
+    max-width: 500px;
+    p {
+        color: $errorColor;
+        font-weight: 400;
+        padding: 5px;
+        padding-left: 20px;
+    }
+}
+
+.warnings>*:last-child {
+    margin: 0;
+}

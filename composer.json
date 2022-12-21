@@ -1,0 +1,14 @@
+{
+    "name": "davitshkubuliani/scandiweb",
+    "authors": [
+        {
+            "name": "Davit Shkubuliani"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    }
+}
