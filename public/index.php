@@ -11,7 +11,6 @@ $database = new Database();
 $router = new Router($database);
 
 $router->get('/', [ProductController::class, 'index']);
-$router->get('/add-product', [ProductController::class, 'create']);
 $router->post('/add-product', [ProductController::class, 'create']);
 $router->post('/delete', [ProductController::class, 'delete']);
 
